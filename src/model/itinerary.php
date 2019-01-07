@@ -23,6 +23,11 @@ class Model_Itinerary extends Model_Base
             'model_to' => 'Model_Category',
             'key_from' => 'category_id',
             'key_to' => 'id',
+        ],
+        'type'  => [
+            'model_to' => 'Model_Category',
+            'key_from' => 'type_id',
+            'key_to' => 'id'
         ]
     ];
 

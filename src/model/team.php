@@ -23,6 +23,11 @@ class Model_Team extends Model_Base
             'model_to' => 'Model_Category',
             'key_from' => 'category_id',
             'key_to'   => 'id',
+        ],
+        'parent'    => [
+            'model_to' => 'Model_People',
+            'key_from' => 'parent_id',
+            'key_to'   => 'id',
         ]
     ];
 
